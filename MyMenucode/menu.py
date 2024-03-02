@@ -53,11 +53,20 @@ menu = {
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity ordered
 
+##empty order list
+order_list = []
+#Function to add an item to the order list
+def add.item(menu_item,price,quantity):
+    order_list.append = ({
+        "item_name = menu.item",
+        "item_price = price,"
+        "quantity_ordered = quantity"})
+        
 
 # Launch the store and present a greeting to the customer
-print("Welcome to the variety food truck.")
+print("Welcome to the variety food truck. We appreciate your business. How may we help you?")
 
-# Customers may want to order multiple items, so let's create a continuous
+# Customers may want to order multiple items, so let's create a continuous        
 # loop
 place_order = True
 while place_order:
