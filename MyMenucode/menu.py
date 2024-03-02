@@ -55,26 +55,12 @@ menu = {
 #[ { "Item name": "string", "Price": float, "Quantity": int }, { "Item name": "string", "Price": float, "Quantity": int }, ] After the sub-menu is printed, prompt the customer to enter their selection from the menu, saving it as a variable menu_selection.
 
 
-# ##empty order list
-# order_list = []
-# #Function to add an item to the order list
-# menu = ({Snacks}, {Meals},{Burgers},{Beverages}, {Dessert}
-# def add.item(menu_item,price,quantity):
-#     order_list.append = [{
-    
-# def add.item(menu_item,price,quantity):
-#     order_list.append = [{
-#         item_name = (f"string("menu.item")\n)
-#         item_price = (f"float("price")\n)
-#         quantity_ordered = int(f"("quantity")\n]
 
-        
-# Print("Please select the items you want to order: ")
-# Print"________|____________________________|________
-# input("Item 1:" )
-# Print("Please select the items you want to order: ")
-# Print"________|____________________________|________
-# input("Item 1:" )
+
+##Display Menu so the customer knows the selections 
+
+
+##Take the customer order by requesting an input
 
 
 # Launch the store and present a greeting to the customer
