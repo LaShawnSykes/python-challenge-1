@@ -16,29 +16,29 @@ menu = {
             "Pepperoni": 10.99,
             "Vegetarian": 9.99
         },
-        "Burger": {
+        "Burgers": {
             "Chicken": 7.49,
             "Beef": 8.49
         }
     },
-    "Drinks": {
+    "Beverages": {
         "Soda": {
             "Small": 1.99,
             "Medium": 2.49,
             "Large": 2.99
         },
-        "Tea": {
+        "Teas": {
             "Green": 2.49,
             "Thai iced": 3.99,
             "Irish breakfast": 2.49
         },
-        "Coffee": {
+        "Coffees": {
             "Espresso": 2.99,
             "Flat white": 2.99,
             "Iced": 3.49
         }
     },
-    "Dessert": {
+    "Desserts": {
         "Chocolate lava cake": 10.99,
         "Cheesecake": {
             "New York": 4.99,
@@ -52,16 +52,30 @@ menu = {
 
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity ordered
+#[ { "Item name": "string", "Price": float, "Quantity": int }, { "Item name": "string", "Price": float, "Quantity": int }, ] After the sub-menu is printed, prompt the customer to enter their selection from the menu, saving it as a variable menu_selection.
 
-##empty order list
-order_list = []
-#Function to add an item to the order list
-def add.item(menu_item,price,quantity):
-    order_list.append = ({
-        "item_name = menu.item",
-        "item_price = price,"
-        "quantity_ordered = quantity"})
+
+# ##empty order list
+# order_list = []
+# #Function to add an item to the order list
+# menu = ({Snacks}, {Meals},{Burgers},{Beverages}, {Dessert}
+# def add.item(menu_item,price,quantity):
+#     order_list.append = [{
+    
+# def add.item(menu_item,price,quantity):
+#     order_list.append = [{
+#         item_name = (f"string("menu.item")\n)
+#         item_price = (f"float("price")\n)
+#         quantity_ordered = int(f"("quantity")\n]
+
         
+# Print("Please select the items you want to order: ")
+# Print"________|____________________________|________
+# input("Item 1:" )
+# Print("Please select the items you want to order: ")
+# Print"________|____________________________|________
+# input("Item 1:" )
+
 
 # Launch the store and present a greeting to the customer
 print("Welcome to the variety food truck. We appreciate your business. How may we help you?")
