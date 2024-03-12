@@ -1,0 +1,53 @@
+Pseudocode for Menu
+Code types to use in this program- List, Loops, Conditionals, Dictionaries, Functions
+Dont forget to add comments when writting the code
+
+#Display the Menu
+  ##Create a category of Food selections
+  ##Create a sub-category for each food selection 
+  ##Make sure name is an integer
+  ##Add price to each sub category item
+  ##Make sure the price is a float with 2 decimal spaces
+  ##Structure the menu so that it is readable for the customers
+    ###Columns to seperate the category,item,and price
+  ##Create Header Name for the Menu
+  ##Print out the menu so it is visible to the end user
+
+
+#Take the customers menu order
+  ##Print statement to request customer to select items
+  ## place for the customer to input selection
+  ## allow the customer to make several selections until complete. Example Please make your selection (input D if done)
+  ## allow the customer to go back to a selection window in case they changed their mind of original selection
+  ## allow customer to input/select multiple amounts of each item. For example  How many items will you like,  5 burgers
+  ##make sure quantity is a digit (int)
+  ## limit the amount of items a customer can select. Example no more than 10 items for each selection. Example 
+ burgers, 10 teas
+  ## check case of the of input, make all lower case
+  ##If input an item not on the list print the item is not found, please try again
+
+## When the cursor is at the end of each category, Ask the customer if they have finished making the order selection (y/n).
+  ###If yes, 
+    1.then end the order request
+    2. Ask customer if a receipt is needed?
+        ####If yes, print out the receipt
+        ####If no, then state "continue please"
+
+#Calculate the order
+##Multiply the price * the line item number.  For example .99(cost) *5(#of items)
+###Calculate the price in each category and provide the total
+#ADD each category  total price to receive the final order price
+
+Create and print a receipt
+#Include Items ordered
+#price
+#quantity
+#Total_price
+#print total price is with a round to 2 decimal.
+#Print Thank you for your order. We appreciate your business. 
+
+##If no order was placed
+Print a statement of Thank you, no order was placed. Come back soon
+
+##Repeat
+###Return to the Welcome to our Food Truck screen.

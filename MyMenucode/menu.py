@@ -16,29 +16,29 @@ menu = {
             "Pepperoni": 10.99,
             "Vegetarian": 9.99
         },
-        "Burger": {
+        "Burgers": {
             "Chicken": 7.49,
             "Beef": 8.49
         }
     },
-    "Drinks": {
+    "Beverages": {
         "Soda": {
             "Small": 1.99,
             "Medium": 2.49,
             "Large": 2.99
         },
-        "Tea": {
+        "Teas": {
             "Green": 2.49,
             "Thai iced": 3.99,
             "Irish breakfast": 2.49
         },
-        "Coffee": {
+        "Coffees": {
             "Espresso": 2.99,
             "Flat white": 2.99,
             "Iced": 3.49
         }
     },
-    "Dessert": {
+    "Desserts": {
         "Chocolate lava cake": 10.99,
         "Cheesecake": {
             "New York": 4.99,
@@ -50,10 +50,11 @@ menu = {
     }
 }
 
+
 order_list = []
 
 print("Welcome to the variety food truck. ")
-
+# loop
 while True:
     print("From which menu would you like to order? ")
     i = 1
